@@ -2,6 +2,7 @@
 <link rel="stylesheet" type="text/css" href="${ctx}/static/css/master.css">
 <link rel="stylesheet" type="text/css" href="${ctx}/static/css/index.css">
 <link rel="stylesheet" type="text/css" href="${ctx}/static/css/model.css">
+<link rel="stylesheet" type="text/css" href="${ctx}/static/css/my.css">
 
 <script language="javascript" src="${ctx}/static/js/html5shiv.js"></script>
 <script language="javascript" src="${ctx}/static/js/respond.min.js"></script>

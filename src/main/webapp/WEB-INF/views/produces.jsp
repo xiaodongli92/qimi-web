@@ -21,32 +21,7 @@
 	
 	<!-- 内容 -->
 	<div class="row row-3">
-		<div class="col-md-3">
-			<div class="model-title theme">
-				产品与服务
-			</div>
-			<div class="model-list">
-				<ul class="list-group">
-                    <li class="list-group-item active">
-						<a href="#">许可咨询</a>
-					</li>
-					<li class="list-group-item">
-						<a href="#">工商服务</a>
-					</li>
-					<li class="list-group-item">
-						<a href="#">资金申报</a>
-					</li>
-					<li class="list-group-item">
-						<a href="#">公司转让</a>
-					</li>
-					<li class="list-group-item">
-						<a href="#">知识产权</a>
-					</li>
-
-				</ul>
-
-			</div>
-		</div>
+		<jsp:include page="/WEB-INF/include/produces-left.jsp"/>
 		<div class="col-md-9">
 			<div class="model-details-title">
 				功能材料
@@ -133,8 +108,17 @@
 		if($(this).attr('href')){
 			window.location = $(this).attr('href');
 		}
-
 	});
+    $(function(){
+        $(".panel-heading").click(function(e){
+            /*切换折叠指示图标*/
+            if ($(this).find("span").hasClass("glyphicon-chevron-down")
+                || $(this).find("span").hasClass("glyphicon-chevron-right")) {
+                $(this).find("span").toggleClass("glyphicon-chevron-down");
+                $(this).find("span").toggleClass("glyphicon-chevron-right");
+            }
+        });
+    });
 </script>
 </body>
 </html>
