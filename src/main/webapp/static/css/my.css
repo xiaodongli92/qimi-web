@@ -20,6 +20,7 @@
 .leftMenu {
     margin-top:5px;
 }
+.leftMenuActive{padding: 2px; border:1px solid transparent;border-radius: 6px;}
 .leftMenu .panel-heading{font-size:14px;padding-left:20px;height:36px;line-height:36px;color:white;position:relative;cursor:pointer;}/*转成手形图标*/
 .leftMenu .panel-heading span{position:absolute;right:10px;top:12px;}
 .leftMenu .menu-item-left{padding: 2px; background: transparent; border:1px solid transparent;border-radius: 6px;}
