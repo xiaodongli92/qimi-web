@@ -8,6 +8,39 @@
         $("#xxfwywno").on('click',function () {
             location.href = '${ctx}/licences/xxfwywno.do'
         });
+        $("#domesticCall").on('click',function () {
+            location.href = '${ctx}/licences/domesticCall.do'
+        });
+        $("#onlineData").on('click',function () {
+            location.href = '${ctx}/licences/onlineData.do'
+        });
+        $("#contentDistribute").on('click',function () {
+            location.href = '${ctx}/licences/contentDistribute.do'
+        });
+        $("#internetVirtual").on('click',function () {
+            location.href = '${ctx}/licences/internetVirtual.do'
+        });
+        $("#internetAccess").on('click',function () {
+            location.href = '${ctx}/licences/internetAccess.do'
+        });
+        $("#internetData").on('click',function () {
+            location.href = '${ctx}/licences/internetData.do'
+        });
+        $("#multiParty").on('click',function () {
+            location.href = '${ctx}/licences/multiParty.do'
+        });
+        $("#storeForward").on('click',function () {
+            location.href = '${ctx}/licences/storeForward.do'
+        });
+        $("#internetDomain").on('click',function () {
+            location.href = '${ctx}/licences/internetDomain.do'
+        });
+        $("#code1069").on('click',function () {
+            location.href = '${ctx}/licences/code1069.do'
+        });
+        $("#code95").on('click',function () {
+            location.href = '${ctx}/licences/code95.do'
+        });
     })
 </script>
 <div class="col-md-3">
@@ -38,57 +71,57 @@
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="domesticCall">
                             <span class="glyphicon glyphicon-triangle-right"></span>国内呼叫中心业务
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="onlineData">
                             <span class="glyphicon glyphicon-triangle-right"></span>在线数据处理与交易业务
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="contentDistribute">
                             <span class="glyphicon glyphicon-triangle-right"></span>内容分发网络业务
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="internetVirtual">
                             <span class="glyphicon glyphicon-triangle-right"></span>国内互联网虚拟专用网业务
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="internetAccess">
                             <span class="glyphicon glyphicon-triangle-right"></span>互联网接入服务业务
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="internetData">
                             <span class="glyphicon glyphicon-triangle-right"></span>互联网数据中心业务
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="multiParty">
                             <span class="glyphicon glyphicon-triangle-right"></span>国内多方通信服务业务许可证
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="storeForward">
                             <span class="glyphicon glyphicon-triangle-right"></span>存储转发类业务许可证
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="internetDomain">
                             <span class="glyphicon glyphicon-triangle-right"></span>互联网域名解析服务业务
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="code1069">
                             <span class="glyphicon glyphicon-triangle-right"></span>1069码号
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="code95">
                             <span class="glyphicon glyphicon-triangle-right"></span>95码号
                         </button>
                     </li>
