@@ -41,7 +41,7 @@
 <nav class="navbar navbar-default" role="navigation">
     <div class="container">
         <ul class="nav navbar-nav" style="width:100%;">
-            <li class="active nav-top" id="index">
+            <li class="dropdown nav-top" id="index">
                 <a href="${ctx}/index.do">首页</a>
             </li>
             <li class="dropdown nav-top" id="produces">

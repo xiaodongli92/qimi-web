@@ -41,6 +41,30 @@
         $("#code95").on('click',function () {
             location.href = '${ctx}/licences/code95.do'
         });
+        $("#game").on('click',function () {
+            location.href = '${ctx}/licences/game.do'
+        });
+        $("#notGame").on('click',function () {
+            location.href = '${ctx}/licences/notGame.do'
+        });
+        $("#businessPerform").on('click',function () {
+            location.href = '${ctx}/licences/businessPerform.do'
+        });
+        $("#artsBusiness").on('click',function () {
+            location.href = '${ctx}/licences/artsBusiness.do'
+        });
+        $("#gameCode").on('click',function () {
+            location.href = '${ctx}/licences/gameCode.do'
+        });
+        $("#gameBak").on('click',function () {
+            location.href = '${ctx}/licences/gameBak.do'
+        });
+        $("#gameJoint").on('click',function () {
+            location.href = '${ctx}/licences/gameJoint.do'
+        });
+        $("#gameCopyright").on('click',function () {
+            location.href = '${ctx}/licences/gameCopyright.do'
+        });
     })
 </script>
 <div class="col-md-3">
@@ -138,22 +162,22 @@
             <div id="collapseListGroup2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
                 <ul class="list-group">
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="game">
                             <span class="glyphicon glyphicon-triangle-right"></span>游戏类文网文
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="notGame">
                             <span class="glyphicon glyphicon-triangle-right"></span>非游戏类文网文
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="businessPerform">
                             <span class="glyphicon glyphicon-triangle-right"></span>营业性演出许可证
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="artsBusiness">
                             <span class="glyphicon glyphicon-triangle-right"></span>美术品进出口经营活动审批
                         </button>
                     </li>
@@ -170,22 +194,22 @@
             <div id="collapseListGroup3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
                 <ul class="list-group">
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="gameCode">
                             <span class="glyphicon glyphicon-triangle-right"></span>游戏版号
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="gameBak">
                             <span class="glyphicon glyphicon-triangle-right"></span>游戏备案
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="gameJoint">
                             <span class="glyphicon glyphicon-triangle-right"></span>游戏联合运营
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="gameCopyright">
                             <span class="glyphicon glyphicon-triangle-right"></span>游戏著作权
                         </button>
                     </li>

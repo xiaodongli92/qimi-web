@@ -75,4 +75,42 @@ public class LicencesController {
     public String code95() {
         return "licences/code95";
     }
+
+    @RequestMapping("game.do")
+    public String game() {
+        return "licences/game";
+    }
+
+    @RequestMapping("notGame.do")
+    public String notGame() {
+        return "licences/notGame";
+    }
+
+    @RequestMapping("businessPerform.do")
+    public String businessPerform() {
+        return "licences/businessPerform";
+    }
+
+    @RequestMapping("artsBusiness.do")
+    public String artsBusiness() {
+        return "licences/artsBusiness";
+    }
+
+    @RequestMapping("gameCode.do")
+    public String gameCode() {
+        return "licences/gameCode";
+    }
+
+    @RequestMapping("gameBak.do")
+    public String gameBak() {
+        return "licences/gameBak";
+    }
+    @RequestMapping("gameJoint.do")
+    public String gameJoint() {
+        return "licences/gameJoint";
+    }
+    @RequestMapping("gameCopyright.do")
+    public String gameCopyright() {
+        return "licences/gameCopyright";
+    }
 }
