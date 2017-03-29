@@ -105,12 +105,109 @@ public class LicencesController {
     public String gameBak() {
         return "licences/gameBak";
     }
+
     @RequestMapping("gameJoint.do")
     public String gameJoint() {
         return "licences/gameJoint";
     }
+
     @RequestMapping("gameCopyright.do")
     public String gameCopyright() {
         return "licences/gameCopyright";
+    }
+
+    @RequestMapping("internetHealth.do")
+    public String internetHealth() {
+        return "licences/internetHealth";
+    }
+
+    @RequestMapping("internetDrugInfo.do")
+    public String internetDrugInfo() {
+        return "licences/internetDrugInfo";
+    }
+
+    @RequestMapping("internetDrugDeal.do")
+    public String internetDrugDeal() {
+        return "licences/internetDrugDeal";
+    }
+
+    @RequestMapping("medicalApparatus.do")
+    public String medicalApparatus() {
+        return "licences/medicalApparatus";
+    }
+
+    @RequestMapping("internetAudio.do")
+    public String internetAudio() {
+        return "licences/internetAudio";
+    }
+
+    @RequestMapping("radioTelevision.do")
+    public String radioTelevision() {
+        return "licences/radioTelevision";
+    }
+
+    @RequestMapping("tvProduction.do")
+    public String tvProduction() {
+        return "licences/tvProduction";
+    }
+
+    @RequestMapping("tvRelease.do")
+    public String tvRelease() {
+        return "licences/tvRelease";
+    }
+
+    @RequestMapping("produceMovies.do")
+    public String produceMovies() {
+        return "licences/produceMovies";
+    }
+
+    @RequestMapping("releaseMovies.do")
+    public String releaseMovies() {
+        return "licences/releaseMovies";
+    }
+
+    @RequestMapping("screeningMovies.do")
+    public String screeningMovies() {
+        return "licences/screeningMovies";
+    }
+
+    @RequestMapping("internetPay.do")
+    public String internetPay() {
+        return "licences/internetPay";
+    }
+
+    @RequestMapping("bankReceipt.do")
+    public String bankReceipt() {
+        return "licences/bankReceipt";
+    }
+
+    @RequestMapping("prepaidCard.do")
+    public String prepaidCard() {
+        return "licences/prepaidCard";
+    }
+
+    @RequestMapping("privateFund.do")
+    public String privateFund() {
+        return "licences/privateFund";
+    }
+
+    @RequestMapping("creditApprove.do")
+    public String creditApprove() {
+        return "licences/creditApprove";
+    }
+
+    @RequestMapping("newThree.do")
+    public String newThree() {
+        return "licences/newThree";
+    }
+
+    @RequestMapping("publishBus.do")
+    public String publishBus() {
+        return "licences/publishBus";
+    }
+
+    @RequestMapping("internetPublish.do")
+    public String internetPublish() {
+        return "licences/internetPublish";
     }
 }

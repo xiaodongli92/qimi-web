@@ -65,6 +65,63 @@
         $("#gameCopyright").on('click',function () {
             location.href = '${ctx}/licences/gameCopyright.do'
         });
+        $("#internetHealth").on('click',function () {
+            location.href = '${ctx}/licences/internetHealth.do'
+        });
+        $("#internetDrugInfo").on('click',function () {
+            location.href = '${ctx}/licences/internetDrugInfo.do'
+        });
+        $("#internetDrugDeal").on('click',function () {
+            location.href = '${ctx}/licences/internetDrugDeal.do'
+        });
+        $("#medicalApparatus").on('click',function () {
+            location.href = '${ctx}/licences/medicalApparatus.do'
+        });
+        $("#internetAudio").on('click',function () {
+            location.href = '${ctx}/licences/internetAudio.do'
+        });
+        $("#radioTelevision").on('click',function () {
+            location.href = '${ctx}/licences/radioTelevision.do'
+        });
+        $("#tvProduction").on('click',function () {
+            location.href = '${ctx}/licences/tvProduction.do'
+        });
+        $("#tvRelease").on('click',function () {
+            location.href = '${ctx}/licences/tvRelease.do'
+        });
+        $("#produceMovies").on('click',function () {
+            location.href = '${ctx}/licences/produceMovies.do'
+        });
+        $("#releaseMovies").on('click',function () {
+            location.href = '${ctx}/licences/releaseMovies.do'
+        });
+        $("#screeningMovies").on('click',function () {
+            location.href = '${ctx}/licences/screeningMovies.do'
+        });
+        $("#internetPay").on('click',function () {
+            location.href = '${ctx}/licences/internetPay.do'
+        });
+        $("#bankReceipt").on('click',function () {
+            location.href = '${ctx}/licences/bankReceipt.do'
+        });
+        $("#prepaidCard").on('click',function () {
+            location.href = '${ctx}/licences/prepaidCard.do'
+        });
+        $("#privateFund").on('click',function () {
+            location.href = '${ctx}/licences/privateFund.do'
+        });
+        $("#creditApprove").on('click',function () {
+            location.href = '${ctx}/licences/creditApprove.do'
+        });
+        $("#newThree").on('click',function () {
+            location.href = '${ctx}/licences/newThree.do'
+        });
+        $("#publishBus").on('click',function () {
+            location.href = '${ctx}/licences/publishBus.do'
+        });
+        $("#internetPublish").on('click',function () {
+            location.href = '${ctx}/licences/internetPublish.do'
+        });
     })
 </script>
 <div class="col-md-3">
@@ -226,22 +283,22 @@
             <div id="collapseListGroup4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
                 <ul class="list-group">
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="internetHealth">
                             <span class="glyphicon glyphicon-triangle-right"></span>互联网医疗保健信息服务许可证
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="internetDrugInfo">
                             <span class="glyphicon glyphicon-triangle-right"></span>互联网药品信息服务许可证
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="internetDrugDeal">
                             <span class="glyphicon glyphicon-triangle-right"></span>互联网药品交易服务许可证
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="medicalApparatus">
                             <span class="glyphicon glyphicon-triangle-right"></span>医疗器械经营许可证
                         </button>
                     </li>
@@ -258,37 +315,37 @@
             <div id="collapseListGroup5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
                 <ul class="list-group">
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="internetAudio">
                             <span class="glyphicon glyphicon-triangle-right"></span>网络视听许可证
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="radioTelevision">
                             <span class="glyphicon glyphicon-triangle-right"></span>广播电视节目制作经营许可证
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="tvProduction">
                             <span class="glyphicon glyphicon-triangle-right"></span>电视剧制作许可证
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="tvRelease">
                             <span class="glyphicon glyphicon-triangle-right"></span>电视剧发行许可证
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="produceMovies">
                             <span class="glyphicon glyphicon-triangle-right"></span>摄影电影许可证
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="releaseMovies">
                             <span class="glyphicon glyphicon-triangle-right"></span>电影发行经营许可证
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="screeningMovies">
                             <span class="glyphicon glyphicon-triangle-right"></span>电影放映经营许可证
                         </button>
                     </li>
@@ -305,32 +362,32 @@
             <div id="collapseListGroup6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
                 <ul class="list-group">
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="internetPay">
                             <span class="glyphicon glyphicon-triangle-right"></span>互联网支付
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="bankReceipt">
                             <span class="glyphicon glyphicon-triangle-right"></span>银行卡收单（POS收单）
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="prepaidCard">
                             <span class="glyphicon glyphicon-triangle-right"></span>预付卡发行与受理
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="privateFund">
                             <span class="glyphicon glyphicon-triangle-right"></span>私募基金登记备案
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="creditApprove">
                             <span class="glyphicon glyphicon-triangle-right"></span>征信机构审批
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="newThree">
                             <span class="glyphicon glyphicon-triangle-right"></span>新三板上市咨询
                         </button>
                     </li>
@@ -347,12 +404,12 @@
             <div id="collapseListGroup7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
                 <ul class="list-group">
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="publishBus">
                             <span class="glyphicon glyphicon-triangle-right"></span>出版物经营许可证
                         </button>
                     </li>
                     <li class="list-group-item">
-                        <button class="menu-item-left">
+                        <button class="menu-item-left" id="internetPublish">
                             <span class="glyphicon glyphicon-triangle-right"></span>网络出版许可证
                         </button>
                     </li>
