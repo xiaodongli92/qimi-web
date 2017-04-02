@@ -122,7 +122,44 @@
         $("#internetPublish").on('click',function () {
             location.href = '${ctx}/licences/internetPublish.do'
         });
+        $("#collapseListGroupHeading8").on('click',function () {
+            location.href = '${ctx}/licences/comRegister.do'
+        });
     })
+</script>
+
+<script>
+    $(function () {
+        $(".panel-heading").find("span").removeClass("glyphicon-chevron-right");
+        $(".panel-heading").find("span").addClass("glyphicon-chevron-down");
+        $(".panel-collapse").addClass("in");
+    });
+    $(function () {
+        $(".navbar li").addClass("dropdown");
+        $(".navbar li").removeClass("active");
+//        $("#produces").removeClass("dropdown");
+        $("#produces").addClass("active");
+    });
+    /*导航条*/
+    $(function () {
+        $(".dropdown").mouseover(function () {
+            $(this).addClass("open");
+        });
+        $(".dropdown").mouseleave(function(){
+            $(this).removeClass("open");
+        });
+        $("#produces a:eq(0)").html("许可咨询");
+    });
+    $(function(){
+        $(".panel-heading").click(function(e){
+            /*切换折叠指示图标*/
+            if ($(this).find("span").hasClass("glyphicon-chevron-down")
+                || $(this).find("span").hasClass("glyphicon-chevron-right")) {
+                $(this).find("span").toggleClass("glyphicon-chevron-down");
+                $(this).find("span").toggleClass("glyphicon-chevron-right");
+            }
+        });
+    });
 </script>
 <div class="col-md-3">
     <div class="panel-group table-responsive" role="tablist">
@@ -416,193 +453,169 @@
                 </ul>
             </div>
         </div>
-        <div class="model-title theme">
-            工商服务
-        </div>
-        <div class="panel panel-primary leftMenu">
-            <div class="panel-heading" id="collapseListGroupHeading8" data-toggle="collapse" data-target="#collapseListGroup8" role="tab" >
-                <h4 class="panel-title">
-                    公司注册
-                    <span class="glyphicon"></span>
-                </h4>
-            </div>
-        </div>
-        <div class="panel panel-primary leftMenu">
-            <div class="panel-heading" id="collapseListGroupHeading9" data-toggle="collapse" data-target="#collapseListGroup9" role="tab" >
-                <h4 class="panel-title">
-                    会计代理
-                    <span class="glyphicon"></span>
-                </h4>
-            </div>
-        </div>
-        <div class="panel panel-primary leftMenu">
-            <div class="panel-heading" id="collapseListGroupHeading10" data-toggle="collapse" data-target="#collapseListGroup10" role="tab" >
-                <h4 class="panel-title">
-                    并购转让
-                    <span class="glyphicon"></span>
-                </h4>
-            </div>
-        </div>
-        <div class="model-title theme">
-            资金申报
-        </div>
-        <div class="panel panel-primary leftMenu">
-            <div class="panel-heading" id="collapseListGroupHeading11" data-toggle="collapse" data-target="#collapseListGroup11" role="tab" >
-                <h4 class="panel-title">
-                    初创小微企业政府资金项目申报
-                    <span class="glyphicon"></span>
-                </h4>
-            </div>
-        </div>
-        <div class="panel panel-primary leftMenu">
-            <div class="panel-heading" id="collapseListGroupHeading12" data-toggle="collapse" data-target="#collapseListGroup12" role="tab" >
-                <h4 class="panel-title">
-                    人才项目政府资金项目申报
-                    <span class="glyphicon"></span>
-                </h4>
-            </div>
-        </div>
-        <div class="panel panel-primary leftMenu">
-            <div class="panel-heading" id="collapseListGroupHeading13" data-toggle="collapse" data-target="#collapseListGroup13" role="tab" >
-                <h4 class="panel-title">
-                    后补助项目政府资金项目申报
-                    <span class="glyphicon"></span>
-                </h4>
-            </div>
-        </div>
-        <div class="panel panel-primary leftMenu">
-            <div class="panel-heading" id="collapseListGroupHeading14" data-toggle="collapse" data-target="#collapseListGroup14" role="tab" >
-                <h4 class="panel-title">
-                    文化旅游类项目
-                    <span class="glyphicon"></span>
-                </h4>
-            </div>
-        </div>
-        <div class="panel panel-primary leftMenu">
-            <div class="panel-heading" id="collapseListGroupHeading15" data-toggle="collapse" data-target="#collapseListGroup15" role="tab" >
-                <h4 class="panel-title">
-                    平台及联盟项目
-                    <span class="glyphicon"></span>
-                </h4>
-            </div>
-        </div>
-        <div class="panel panel-primary leftMenu">
-            <div class="panel-heading" id="collapseListGroupHeading16" data-toggle="collapse" data-target="#collapseListGroup16" role="tab" >
-                <h4 class="panel-title">
-                    补贴性质及奖项类项目
-                    <span class="glyphicon"></span>
-                </h4>
-            </div>
-        </div>
-        <div class="panel panel-primary leftMenu">
-            <div class="panel-heading" id="collapseListGroupHeading17" data-toggle="collapse" data-target="#collapseListGroup17" role="tab" >
-                <h4 class="panel-title">
-                    与知识产权相关的项目
-                    <span class="glyphicon"></span>
-                </h4>
-            </div>
-        </div>
-        <div class="panel panel-primary leftMenu">
-            <div class="panel-heading" id="collapseListGroupHeading18" data-toggle="collapse" data-target="#collapseListGroup18" role="tab" >
-                <h4 class="panel-title">
-                    在建大型项目
-                    <span class="glyphicon"></span>
-                </h4>
-            </div>
-        </div>
-        <div class="panel panel-primary leftMenu">
-            <div class="panel-heading" id="collapseListGroupHeading19" data-toggle="collapse" data-target="#collapseListGroup19" role="tab" >
-                <h4 class="panel-title">
-                    涉外项目
-                    <span class="glyphicon"></span>
-                </h4>
-            </div>
-        </div>
-        <div class="panel panel-primary leftMenu">
-            <div class="panel-heading" id="collapseListGroupHeading20" data-toggle="collapse" data-target="#collapseListGroup20" role="tab" >
-                <h4 class="panel-title">
-                    科委各处室专项资金
-                    <span class="glyphicon"></span>
-                </h4>
-            </div>
-        </div>
-        <div class="model-title theme">
-            公司转让
-        </div>
-        <div class="panel panel-primary leftMenu">
-            <div class="panel-heading" id="collapseListGroupHeading21" data-toggle="collapse" data-target="#collapseListGroup21" role="tab" >
-                <h4 class="panel-title">
-                    增值电信企业
-                    <span class="glyphicon"></span>
-                </h4>
-            </div>
-        </div>
-        <div class="panel panel-primary leftMenu">
-            <div class="panel-heading" id="collapseListGroupHeading22" data-toggle="collapse" data-target="#collapseListGroup22" role="tab" >
-                <h4 class="panel-title">
-                    文网文企业
-                    <span class="glyphicon"></span>
-                </h4>
-            </div>
-        </div>
-        <div class="panel panel-primary leftMenu">
-            <div class="panel-heading" id="collapseListGroupHeading23" data-toggle="collapse" data-target="#collapseListGroup23" role="tab" >
-                <h4 class="panel-title">
-                    网络视听
-                    <span class="glyphicon"></span>
-                </h4>
-            </div>
-        </div>
-        <div class="model-title theme">
-            知识产权
-        </div>
-        <div class="panel panel-primary leftMenu">
-            <div class="panel-heading" id="collapseListGroupHeading24" data-toggle="collapse" data-target="#collapseListGroup21" role="tab" >
-                <h4 class="panel-title">
-                    专利服务
-                    <span class="glyphicon"></span>
-                </h4>
-            </div>
-        </div>
-        <div class="panel panel-primary leftMenu">
-            <div class="panel-heading" id="collapseListGroupHeading25" data-toggle="collapse" data-target="#collapseListGroup22" role="tab" >
-                <h4 class="panel-title">
-                    商标服务
-                    <span class="glyphicon"></span>
-                </h4>
-            </div>
-        </div>
-        <div class="panel panel-primary leftMenu">
-            <div class="panel-heading" id="collapseListGroupHeading26" data-toggle="collapse" data-target="#collapseListGroup23" role="tab" >
-                <h4 class="panel-title">
-                    版权服务
-                    <span class="glyphicon"></span>
-                </h4>
-            </div>
-        </div>
+        <%--<div class="model-title theme">--%>
+            <%--工商服务--%>
+        <%--</div>--%>
+        <%--<div class="panel panel-primary leftMenu">--%>
+            <%--<div class="panel-heading" id="collapseListGroupHeading8" data-toggle="collapse" data-target="#collapseListGroup8" role="tab" >--%>
+                <%--<h4 class="panel-title">--%>
+                    <%--公司注册--%>
+                    <%--<span class="glyphicon"></span>--%>
+                <%--</h4>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="panel panel-primary leftMenu">--%>
+            <%--<div class="panel-heading" id="collapseListGroupHeading9" data-toggle="collapse" data-target="#collapseListGroup9" role="tab" >--%>
+                <%--<h4 class="panel-title">--%>
+                    <%--会计代理--%>
+                    <%--<span class="glyphicon"></span>--%>
+                <%--</h4>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="panel panel-primary leftMenu">--%>
+            <%--<div class="panel-heading" id="collapseListGroupHeading10" data-toggle="collapse" data-target="#collapseListGroup10" role="tab" >--%>
+                <%--<h4 class="panel-title">--%>
+                    <%--并购转让--%>
+                    <%--<span class="glyphicon"></span>--%>
+                <%--</h4>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="model-title theme">--%>
+            <%--资金申报--%>
+        <%--</div>--%>
+        <%--<div class="panel panel-primary leftMenu">--%>
+            <%--<div class="panel-heading" id="collapseListGroupHeading11" data-toggle="collapse" data-target="#collapseListGroup11" role="tab" >--%>
+                <%--<h4 class="panel-title">--%>
+                    <%--初创小微企业政府资金项目申报--%>
+                    <%--<span class="glyphicon"></span>--%>
+                <%--</h4>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="panel panel-primary leftMenu">--%>
+            <%--<div class="panel-heading" id="collapseListGroupHeading12" data-toggle="collapse" data-target="#collapseListGroup12" role="tab" >--%>
+                <%--<h4 class="panel-title">--%>
+                    <%--人才项目政府资金项目申报--%>
+                    <%--<span class="glyphicon"></span>--%>
+                <%--</h4>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="panel panel-primary leftMenu">--%>
+            <%--<div class="panel-heading" id="collapseListGroupHeading13" data-toggle="collapse" data-target="#collapseListGroup13" role="tab" >--%>
+                <%--<h4 class="panel-title">--%>
+                    <%--后补助项目政府资金项目申报--%>
+                    <%--<span class="glyphicon"></span>--%>
+                <%--</h4>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="panel panel-primary leftMenu">--%>
+            <%--<div class="panel-heading" id="collapseListGroupHeading14" data-toggle="collapse" data-target="#collapseListGroup14" role="tab" >--%>
+                <%--<h4 class="panel-title">--%>
+                    <%--文化旅游类项目--%>
+                    <%--<span class="glyphicon"></span>--%>
+                <%--</h4>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="panel panel-primary leftMenu">--%>
+            <%--<div class="panel-heading" id="collapseListGroupHeading15" data-toggle="collapse" data-target="#collapseListGroup15" role="tab" >--%>
+                <%--<h4 class="panel-title">--%>
+                    <%--平台及联盟项目--%>
+                    <%--<span class="glyphicon"></span>--%>
+                <%--</h4>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="panel panel-primary leftMenu">--%>
+            <%--<div class="panel-heading" id="collapseListGroupHeading16" data-toggle="collapse" data-target="#collapseListGroup16" role="tab" >--%>
+                <%--<h4 class="panel-title">--%>
+                    <%--补贴性质及奖项类项目--%>
+                    <%--<span class="glyphicon"></span>--%>
+                <%--</h4>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="panel panel-primary leftMenu">--%>
+            <%--<div class="panel-heading" id="collapseListGroupHeading17" data-toggle="collapse" data-target="#collapseListGroup17" role="tab" >--%>
+                <%--<h4 class="panel-title">--%>
+                    <%--与知识产权相关的项目--%>
+                    <%--<span class="glyphicon"></span>--%>
+                <%--</h4>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="panel panel-primary leftMenu">--%>
+            <%--<div class="panel-heading" id="collapseListGroupHeading18" data-toggle="collapse" data-target="#collapseListGroup18" role="tab" >--%>
+                <%--<h4 class="panel-title">--%>
+                    <%--在建大型项目--%>
+                    <%--<span class="glyphicon"></span>--%>
+                <%--</h4>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="panel panel-primary leftMenu">--%>
+            <%--<div class="panel-heading" id="collapseListGroupHeading19" data-toggle="collapse" data-target="#collapseListGroup19" role="tab" >--%>
+                <%--<h4 class="panel-title">--%>
+                    <%--涉外项目--%>
+                    <%--<span class="glyphicon"></span>--%>
+                <%--</h4>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="panel panel-primary leftMenu">--%>
+            <%--<div class="panel-heading" id="collapseListGroupHeading20" data-toggle="collapse" data-target="#collapseListGroup20" role="tab" >--%>
+                <%--<h4 class="panel-title">--%>
+                    <%--科委各处室专项资金--%>
+                    <%--<span class="glyphicon"></span>--%>
+                <%--</h4>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="model-title theme">--%>
+            <%--公司转让--%>
+        <%--</div>--%>
+        <%--<div class="panel panel-primary leftMenu">--%>
+            <%--<div class="panel-heading" id="collapseListGroupHeading21" data-toggle="collapse" data-target="#collapseListGroup21" role="tab" >--%>
+                <%--<h4 class="panel-title">--%>
+                    <%--增值电信企业--%>
+                    <%--<span class="glyphicon"></span>--%>
+                <%--</h4>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="panel panel-primary leftMenu">--%>
+            <%--<div class="panel-heading" id="collapseListGroupHeading22" data-toggle="collapse" data-target="#collapseListGroup22" role="tab" >--%>
+                <%--<h4 class="panel-title">--%>
+                    <%--文网文企业--%>
+                    <%--<span class="glyphicon"></span>--%>
+                <%--</h4>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="panel panel-primary leftMenu">--%>
+            <%--<div class="panel-heading" id="collapseListGroupHeading23" data-toggle="collapse" data-target="#collapseListGroup23" role="tab" >--%>
+                <%--<h4 class="panel-title">--%>
+                    <%--网络视听--%>
+                    <%--<span class="glyphicon"></span>--%>
+                <%--</h4>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="model-title theme">--%>
+            <%--知识产权--%>
+        <%--</div>--%>
+        <%--<div class="panel panel-primary leftMenu">--%>
+            <%--<div class="panel-heading" id="collapseListGroupHeading24" data-toggle="collapse" data-target="#collapseListGroup21" role="tab" >--%>
+                <%--<h4 class="panel-title">--%>
+                    <%--专利服务--%>
+                    <%--<span class="glyphicon"></span>--%>
+                <%--</h4>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="panel panel-primary leftMenu">--%>
+            <%--<div class="panel-heading" id="collapseListGroupHeading25" data-toggle="collapse" data-target="#collapseListGroup22" role="tab" >--%>
+                <%--<h4 class="panel-title">--%>
+                    <%--商标服务--%>
+                    <%--<span class="glyphicon"></span>--%>
+                <%--</h4>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="panel panel-primary leftMenu">--%>
+            <%--<div class="panel-heading" id="collapseListGroupHeading26" data-toggle="collapse" data-target="#collapseListGroup23" role="tab" >--%>
+                <%--<h4 class="panel-title">--%>
+                    <%--版权服务--%>
+                    <%--<span class="glyphicon"></span>--%>
+                <%--</h4>--%>
+            <%--</div>--%>
+        <%--</div>--%>
     </div>
-    <%--<div class="model-title theme">--%>
-    <%--产品与服务--%>
-    <%--</div>--%>
-    <%--<div class="model-list">--%>
-    <%--<ul class="list-group">--%>
-    <%--<li class="list-group-item active">--%>
-    <%--<a href="#">许可咨询</a>--%>
-    <%--</li>--%>
-    <%--<li class="list-group-item">--%>
-    <%--<a href="#">工商服务</a>--%>
-    <%--</li>--%>
-    <%--<li class="list-group-item">--%>
-    <%--<a href="#">资金申报</a>--%>
-    <%--</li>--%>
-    <%--<li class="list-group-item">--%>
-    <%--<a href="#">公司转让</a>--%>
-    <%--</li>--%>
-    <%--<li class="list-group-item">--%>
-    <%--<a href="#">知识产权</a>--%>
-    <%--</li>--%>
-
-    <%--</ul>--%>
-
-    <%--</div>--%>
 </div>

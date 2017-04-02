@@ -171,43 +171,9 @@
 <jsp:include page="/WEB-INF/include/foot.jsp"/>
 <script>
     $(function () {
-        $("#collapseListGroupHeading1").find("span").removeClass("glyphicon-chevron-right");
-        $("#collapseListGroupHeading1").find("span").addClass("glyphicon-chevron-down");
-        $("#collapseListGroup1").addClass("in");
         $("#xxfwywno").removeClass("menu-item-left");
         $("#xxfwywno").addClass("leftMenuActive");
     })
-    $(function () {
-        $(".navbar li").addClass("dropdown");
-        $(".navbar li").removeClass("active");
-        $("#produces").removeClass("dropdown");
-        $("#produces").addClass("active");
-    });
-    /*导航条*/
-    $(function () {
-        $(".dropdown").mouseover(function () {
-            $(this).addClass("open");
-        });
-        $(".dropdown").mouseleave(function(){
-            $(this).removeClass("open");
-        });
-    });
-    /*导航条标题点击事件*/
-    $(".dropdown-toggle").click(function(){
-        if($(this).attr('href')){
-            window.location = $(this).attr('href');
-        }
-    });
-    $(function(){
-        $(".panel-heading").click(function(e){
-            /*切换折叠指示图标*/
-            if ($(this).find("span").hasClass("glyphicon-chevron-down")
-                || $(this).find("span").hasClass("glyphicon-chevron-right")) {
-                $(this).find("span").toggleClass("glyphicon-chevron-down");
-                $(this).find("span").toggleClass("glyphicon-chevron-right");
-            }
-        });
-    });
 </script>
 </body>
 </html>

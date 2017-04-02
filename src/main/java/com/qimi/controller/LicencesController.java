@@ -210,4 +210,24 @@ public class LicencesController {
     public String internetPublish() {
         return "licences/internetPublish";
     }
+
+    @RequestMapping("comRegister.do")
+    public String comRegister() {
+        return "licences/comRegister";
+    }
+
+    @RequestMapping("fundDeclaration.do")
+    public String fundDeclaration() {
+        return "licences/fundDeclaration";
+    }
+
+    @RequestMapping("companyTransfer.do")
+    public String companyTransfer() {
+        return "licences/companyTransfer";
+    }
+
+    @RequestMapping("knowledge.do")
+    public String knowledge() {
+        return "licences/knowledge";
+    }
 }

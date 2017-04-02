@@ -45,23 +45,23 @@
                 <a href="${ctx}/index.do">首页</a>
             </li>
             <li class="dropdown nav-top" id="produces">
-                <a href="${ctx}/produces.do" class="dropdown-toggle on" data-toggle="dropdown">产品与服务</a>
+                <a href="javascript:void(0);" class="dropdown-toggle on" data-toggle="dropdown">产品与服务</a>
                 <ul class="dropdown-menu">
-                    <li><a href="${ctx}/produces.do">许可咨询</a></li>
-                    <li><a href="${ctx}/produces.do">工商服务</a></li>
-                    <li><a href="${ctx}/produces.do">资金申报</a></li>
-                    <li><a href="${ctx}/produces.do">公司转让</a></li>
-                    <li><a href="${ctx}/produces.do">知识产权</a></li>
+                    <li><a href="${ctx}/licences/xxfwywcon.do">许可咨询</a></li>
+                    <li><a href="${ctx}/licences/comRegister.do">工商服务</a></li>
+                    <li><a href="${ctx}/licences/fundDeclaration.do">资金申报</a></li>
+                    <li><a href="${ctx}/licences/companyTransfer.do">公司转让</a></li>
+                    <li><a href="${ctx}/licences/knowledge.do">知识产权</a></li>
                 </ul>
             </li>
             <li class="dropdown nav-top" id="solution">
-                <a href="${ctx}/solution.do" class="dropdown-toggle on" data-toggle="dropdown">解决方案</a>
+                <a href="javascript:void(0);" class="dropdown-toggle on" data-toggle="dropdown">解决方案</a>
                 <ul class="dropdown-menu">
-                    <li><a href="${ctx}/solution.do">电商解决方案</a></li>
-                    <li><a href="${ctx}/solution.do">网络解决文化方案</a></li>
-                    <li><a href="${ctx}/solution.do">P2P解决方案</a></li>
-                    <li><a href="${ctx}/solution.do">医疗解决方案</a></li>
-                    <li><a href="${ctx}/solution.do">游戏解决方案</a></li>
+                    <li><a href="${ctx}/solution/business.do">电商解决方案</a></li>
+                    <li><a href="${ctx}/solution/internet.do">网络文化解决方案</a></li>
+                    <li><a href="${ctx}/solution/p2p.do">P2P解决方案</a></li>
+                    <li><a href="${ctx}/solution/medical.do">医疗解决方案</a></li>
+                    <li><a href="${ctx}/solution/game.do">游戏解决方案</a></li>
                 </ul>
             </li>
             <li class="dropdown nav-top">
@@ -73,22 +73,24 @@
 
                 </ul>
             </li>
-            <li class="dropdown nav-top" id="companyPro">
-                <a href="${ctx}/companyPro.do" class="dropdown-toggle on" data-toggle="dropdown">关于企秘</a>
+            <li class="dropdown nav-top" id="about">
+                <a href="javascript:void(0);" class="dropdown-toggle on" data-toggle="dropdown">关于企秘</a>
                 <ul class="dropdown-menu">
-                    <li><a href="${ctx}/companyPro.do">公司概况</a></li>
-                    <li><a href="${ctx}/companyPro.do">法律申明</a></li>
-                    <li><a href="${ctx}/companyPro.do">企业文化</a></li>
-
+                    <li><a href="${ctx}/about/info.do">公司概况</a></li>
+                    <li><a href="${ctx}/about/law.do">法律申明</a></li>
+                    <li><a href="${ctx}/about/agency.do">代理商政策</a></li>
+                    <li><a href="${ctx}/about/service.do">服务保障</a></li>
+                    <li><a href="${ctx}/about/payType.do">付款方式</a></li>
+                    <li><a href="${ctx}/about/contact.do">联系我们</a></li>
+                    <li><a href="${ctx}/about/feedback.do">意见反馈</a></li>
                 </ul>
             </li>
-            <li class="dropdown nav-top">
+            <li class="dropdown nav-top" id="resources">
                 <a href="javascript:void(0);" class="dropdown-toggle on" data-toggle="dropdown">人力资源</a>
                 <ul class="dropdown-menu">
                     <li><a href="javascript:void(0);">人才理念</a></li>
                     <li><a href="javascript:void(0);">员工活动</a></li>
-                    <li><a href="javascript:void(0);">加入企秘</a></li>
-
+                    <li><a href="${ctx}/resources/join.do">加入企秘</a></li>
                 </ul>
             </li>
         </ul>
