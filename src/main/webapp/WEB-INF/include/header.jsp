@@ -58,9 +58,9 @@
                 <a href="javascript:void(0);" class="dropdown-toggle on" data-toggle="dropdown">解决方案</a>
                 <ul class="dropdown-menu">
                     <li><a href="${ctx}/solution/business.do">电商解决方案</a></li>
-                    <li><a href="${ctx}/solution/internet.do">网络文化解决方案</a></li>
+                    <%--<li><a href="${ctx}/solution/internet.do">网络文化解决方案</a></li>--%>
                     <li><a href="${ctx}/solution/p2p.do">P2P解决方案</a></li>
-                    <li><a href="${ctx}/solution/medical.do">医疗解决方案</a></li>
+                    <%--<li><a href="${ctx}/solution/medical.do">医疗解决方案</a></li>--%>
                     <li><a href="${ctx}/solution/game.do">游戏解决方案</a></li>
                 </ul>
             </li>
