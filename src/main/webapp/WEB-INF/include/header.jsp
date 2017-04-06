@@ -50,8 +50,8 @@
                     <li><a href="${ctx}/licences/xxfwywcon.do">许可咨询</a></li>
                     <li><a href="${ctx}/licences/comRegister.do">工商服务</a></li>
                     <li><a href="${ctx}/licences/fundDeclaration.do">资金申报</a></li>
-                    <li><a href="${ctx}/licences/companyTransfer.do">公司转让</a></li>
-                    <li><a href="${ctx}/licences/knowledge.do">知识产权</a></li>
+                    <%--<li><a href="${ctx}/licences/companyTransfer.do">公司转让</a></li>--%>
+                    <%--<li><a href="${ctx}/licences/knowledge.do">知识产权</a></li>--%>
                 </ul>
             </li>
             <li class="dropdown nav-top" id="solution">
@@ -64,13 +64,14 @@
                     <li><a href="${ctx}/solution/game.do">游戏解决方案</a></li>
                 </ul>
             </li>
-            <li class="dropdown nav-top">
+            <li class="dropdown nav-top" id="customer">
                 <a href="javascript:void(0);" class="dropdown-toggle on" data-toggle="dropdown">客户案例</a>
                 <ul class="dropdown-menu">
-                    <li><a href="javascript:void(0);">典型案例</a></li>
-                    <li><a href="javascript:void(0);">行业客户</a></li>
-                    <li><a href="javascript:void(0);">客户声音</a></li>
-
+                    <li><a href="${ctx}/customer/ICP.do">互联网信息服务业务（ICP）</a></li>
+                    <li><a href="${ctx}/customer/ISP.do">互联网接入服务业务（ISP）</a></li>
+                    <li><a href="${ctx}/customer/internetCulture.do">网络文化经营许可（文网文）</a></li>
+                    <li><a href="${ctx}/customer/IDC.do">互联网数据中心（IDC）</a></li>
+                    <li><a href="${ctx}/customer/callCenter.do">国内呼叫中心业务</a></li>
                 </ul>
             </li>
             <li class="dropdown nav-top" id="about">
