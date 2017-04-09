@@ -9,13 +9,13 @@
 
         </div>
         <div class="col-md-2">
-            <a href="javascript:void(0);" class="mail ant">
-                <span class="glyphicon glyphicon-envelope"></span>发送邮件
+            <a href="tencent://Message/?Uin=2569333804&websiteName=yingzhikeji.cn&Menu=yes" class="mail ant">
+                <span class="glyphicon glyphicon-envelope"></span>咨询QQ
             </a>
         </div>
         <div class="col-md-3">
             <a href="javascript:void(0);" class="phone ant">
-                <span class="glyphicon glyphicon-phone"></span>联系电话：400 0000 2222
+                <span class="glyphicon glyphicon-phone"></span>联系电话：183 0150 1273
             </a>
         </div>
     </div>
@@ -26,7 +26,7 @@
     <div class="row">
         <div class="col-md-4">
             <a href="${ctx}/index.do">
-                <img class="img-responsive" src="${ctx}/static/images/header.png" alt="网站logo">
+                <img class="img-responsive" src="${ctx}/static/images/logo.jpg" alt="网站logo">
             </a>
         </div>
         <div class="col-md-3">
