@@ -15,7 +15,7 @@
 <div class="container">
     <!-- 固定图片广告 -->
     <div class="row">
-        <img class="img-responsive model-img" src="${ctx}/static/images/gsgk1.jpg" alt="公司概况">
+        <img class="img-responsive model-img" src="${ctx}/static/images/header/zizhi.jpg" alt="产品与服务">
     </div>
 
     <!-- 内容 -->

@@ -10,7 +10,8 @@
         </div>
         <div class="col-md-2">
             <a href="tencent://Message/?Uin=2569333804&websiteName=yingzhikeji.cn&Menu=yes" class="mail ant">
-                <span class="glyphicon glyphicon-envelope"></span>咨询QQ
+                <%--<span class="glyphicon glyphicon-envelope"></span>--%>
+                咨询QQ 2569333804
             </a>
         </div>
         <div class="col-md-3">
@@ -22,20 +23,10 @@
 </div>
 
 <!-- 公司logo -->
-<div class="container title-logo">
-    <div class="row">
-        <div class="col-md-4">
-            <a href="${ctx}/index.do">
-                <img class="img-responsive" src="${ctx}/static/images/logo.jpg" alt="网站logo">
-            </a>
-        </div>
-        <div class="col-md-3">
-        </div>
-        <div class="col-md-2">
-        </div>
-        <div class="col-md-3">
-        </div>
-    </div>
+<div class="" style="background: url(${ctx}/static/images/header/qimi.jpg) no-repeat left top;-webkit-background-size: 100% 100%;min-height: 300px;">
+    <%--<a href="${ctx}/index.do">--%>
+        <%--<img class="" src="${ctx}/static/images/logo.jpg">--%>
+    <%--</a>--%>
 </div>
 <!-- 导航条 -->
 <nav class="navbar navbar-default" role="navigation">

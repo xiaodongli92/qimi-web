@@ -225,6 +225,11 @@
 <jsp:include page="/WEB-INF/include/foot.jsp"/>
 <script>
     $(function () {
+        $("img").click(function () {
+            window.location.href = "tencent://Message/?Uin=2569333804&websiteName=yingzhikeji.cn&Menu=yes"
+        })
+    });
+    $(function () {
         $(".navbar li").addClass("dropdown")
         $(".navbar li").removeClass("active")
         $("#index").removeClass("dropdown");
