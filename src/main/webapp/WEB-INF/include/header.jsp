@@ -23,11 +23,12 @@
 </div>
 
 <!-- 公司logo -->
-<div class="" style="background: url(${ctx}/static/images/header/qimi.jpg) no-repeat left top;-webkit-background-size: 100% 100%;min-height: 300px;">
+<%--<div class="" style="background: url(${ctx}/static/images/header/qimi.jpg) no-repeat left top;-webkit-background-size: 100% 100%;min-height: 300px;">--%>
     <%--<a href="${ctx}/index.do">--%>
         <%--<img class="" src="${ctx}/static/images/logo.jpg">--%>
     <%--</a>--%>
-</div>
+<%--</div>--%>
+<img class="img-responsive model-img" src="${ctx}/static/images/header/qimi.jpg" alt="产品与服务">
 <!-- 导航条 -->
 <nav class="navbar navbar-default" role="navigation">
     <div class="container">
