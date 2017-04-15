@@ -6,6 +6,30 @@
 <head>
     <%@ include file="/WEB-INF/include/head.inc" %>
     <title>企秘</title>
+    <style>
+        .ui-sidebar {
+            width: 55px;
+            position: fixed;
+            left: 50%;
+            margin-left: 620px;
+            bottom: 46%;
+            display: block;
+            z-index: 1001;
+        }
+        .ui-sidebar a.jimi {
+            background-position: 0 0;
+        }
+        .ui-sidebar a.ui-sidebar-block {
+            width: 55px;
+            height: 55px;
+            border-radius: 3px;
+            margin-top: 2px;
+            display: block;
+            position: relative;
+            background: #fff url("${ctx}/static/images/index/timg.jpg");
+            background-size: 100% 100%;;
+        }
+    </style>
 </head>
 
 <body>
@@ -13,6 +37,11 @@
 <jsp:include page="/WEB-INF/include/header.jsp"/>
 
 <div class="line theme"></div>
+
+<div class="ui-sidebar">
+    <a class="ui-sidebar-block jimi" href="tencent://Message/?Uin=3298935274&websiteName=yingzhikeji.cn&Menu=yes"></a>
+    <a class="ui-sidebar-block jimi" href="tencent://Message/?Uin=1609639674&websiteName=yingzhikeji.cn&Menu=yes"></a>
+</div>
 
 <!-- 广告轮播 -->
 <div class="container">
@@ -160,6 +189,75 @@
             </div>
         </div>
     </div>
+    <div class="row row-2">
+
+        <!-- 资金申报 -->
+        <div class="col-md-4">
+        <span class="part1">
+            <a href="javascript:void(0);">IDC</a>
+        </span>
+        <span class="part1 en">
+            &nbsp;&nbsp;/ 互联网数据中心业务
+        </span>
+            <div class="line1">
+                <div class="line2 theme"></div>
+            </div>
+            <div>
+                <img class="img-responsive" src="${ctx}/static/images/index/IDC.jpg" alt="fundDeclaration">
+                <p class="text1">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IDC互联网数据中心业务是指利用相应的机房设施，以外包出租的方式为用户的服务器等互联网或其他网络相关设备提供放置、代理维护及管理服务，从事IDC业务就需要申请IDC许可证，简称IDC证（idc资质或idc牌照），它属于第一类增值电信业务中的互联网数据中心业务。
+                </p>
+            </div>
+        </div>
+        <!-- 网络文化经营 -->
+        <div class="col-md-4">
+        <span class="part1">
+            <a href="javascript:void(0);">高新企业技术认定</a>
+        </span>
+            <div class="line1">
+                <div class="line2 theme"></div>
+            </div>
+            <div>
+                <img class="img-responsive" src="${ctx}/static/images/index/gaoxin.jpg" alt="internetAccess">
+                <p class="text1">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;高新技术企业是指在《国家重点支持的高新技术领域》内，持续进行研究开发与技术成果转化，形成企业核心自主知识产权，并以此为基础开展经营活动，在中国境内(不包括港、澳、台地区)注册一年以上的企业。它是知识密集、技术密集的经济实体。
+                </p>
+            </div>
+        </div>
+        <!-- 公司转让 -->
+        <div class="col-md-4">
+        <span class="part1">
+            <a href="javascript:void(0);">广播电视节目制作经营许可证</a>
+        </span>
+            <div class="line1">
+                <div class="line2 theme"></div>
+            </div>
+            <div>
+                <img class="img-responsive" src="${ctx}/static/images/index/guangdian.jpg" alt="softwareWorks">
+                <p class="text1">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;设立广播电视节目制作经营机构或从事专题、专栏、综艺、动画片、广播剧、电视剧等广播电视节目的制作和节目版权的交易、代理交易等活动的行为就需要申请广播电视节目制作经营许可证，简称广播电视节目制作许可证。
+                </p>
+            </div>
+        </div>
+</div>
+        <div class="row row-2">
+
+            <!-- 资金申报 -->
+            <div class="col-md-4">
+        <span class="part1">
+            <a href="javascript:void(0);">游戏版号</a>
+        </span>
+                <div class="line1">
+                    <div class="line2 theme"></div>
+                </div>
+                <div>
+                    <img class="img-responsive" src="${ctx}/static/images/index/ISBN.jpg" alt="fundDeclaration">
+                    <p class="text1">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;游戏版号是游戏版权号的简称，是由国家新闻出版广电总局审核发布的对于游戏根据[著作权（游戏软件著作权，含网络游戏）法]和[计算机游戏软件保护条例]等法律法规的规定，游戏软件厂商或者个人作者开发的游戏软件在开发完成后就受到著作权（游戏软件著作权，含网络游戏）法的保护。游戏版号（也就是游戏出版备案）俗称电子出版物号，简称ISBN，普遍的有光盘发行号，书号。
+                    </p>
+                </div>
+            </div>
+        </div>
     <div class="row">
 
         <!-- 产品展示 -->
