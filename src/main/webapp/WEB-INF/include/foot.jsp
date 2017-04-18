@@ -37,7 +37,7 @@
             </dl>
         </div>
         <div class="col-md-4" id="wx">
-            <p>扫描二维码，关注我们</p>
+            <%--<p>扫描二维码，关注我们</p>--%>
             <%--<img class="" src="${ctx}/static/images/wx.jpg" alt="wx">--%>
             <%--<p>客服热线：<b style="font-size:20px">400 000 2222</b></p>--%>
         </div>
