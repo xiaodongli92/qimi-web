@@ -28,7 +28,7 @@
         <%--<img class="" src="${ctx}/static/images/logo.jpg">--%>
     <%--</a>--%>
 <%--</div>--%>
-<img class="img-responsive model-img" src="${ctx}/static/images/header/qimi.jpg" alt="产品与服务">
+<img class="img-responsive model-img" src="${ctx}/static/images/header/qimi_new.jpg" alt="产品与服务">
 <!-- 导航条 -->
 <nav class="navbar navbar-default" role="navigation">
     <div class="container">
