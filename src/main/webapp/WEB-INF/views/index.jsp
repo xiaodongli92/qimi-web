@@ -6,30 +6,6 @@
 <head>
     <%@ include file="/WEB-INF/include/head.inc" %>
     <title>企秘</title>
-    <style>
-        .ui-sidebar {
-            width: 55px;
-            position: fixed;
-            left: 50%;
-            margin-left: 620px;
-            bottom: 46%;
-            display: block;
-            z-index: 1001;
-        }
-        .ui-sidebar a.jimi {
-            background-position: 0 0;
-        }
-        .ui-sidebar a.ui-sidebar-block {
-            width: 55px;
-            height: 55px;
-            border-radius: 3px;
-            margin-top: 2px;
-            display: block;
-            position: relative;
-            background: #fff url("${ctx}/static/images/index/timg.jpg");
-            background-size: 100% 100%;;
-        }
-    </style>
 </head>
 
 <body>
@@ -38,10 +14,6 @@
 
 <div class="line theme"></div>
 
-<div class="ui-sidebar">
-    <a class="ui-sidebar-block jimi" href="tencent://Message/?Uin=3298935274&websiteName=yingzhikeji.cn&Menu=yes"></a>
-    <a class="ui-sidebar-block jimi" href="tencent://Message/?Uin=1609639674&websiteName=yingzhikeji.cn&Menu=yes"></a>
-</div>
 
 <!-- 广告轮播 -->
 <div class="container">
@@ -240,24 +212,24 @@
             </div>
         </div>
 </div>
-        <div class="row row-2">
+        <%--<div class="row row-2">--%>
 
-            <!-- 资金申报 -->
-            <div class="col-md-4">
-        <span class="part1">
-            <a href="javascript:void(0);">游戏版号</a>
-        </span>
-                <div class="line1">
-                    <div class="line2 theme"></div>
-                </div>
-                <div>
-                    <img class="img-responsive" src="${ctx}/static/images/index/ISBN.jpg" alt="fundDeclaration">
-                    <p class="text1">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;游戏版号是游戏版权号的简称，是由国家新闻出版广电总局审核发布的对于游戏根据[著作权（游戏软件著作权，含网络游戏）法]和[计算机游戏软件保护条例]等法律法规的规定，游戏软件厂商或者个人作者开发的游戏软件在开发完成后就受到著作权（游戏软件著作权，含网络游戏）法的保护。游戏版号（也就是游戏出版备案）俗称电子出版物号，简称ISBN，普遍的有光盘发行号，书号。
-                    </p>
-                </div>
-            </div>
-        </div>
+            <%--<!-- 资金申报 -->--%>
+            <%--<div class="col-md-4">--%>
+        <%--<span class="part1">--%>
+            <%--<a href="javascript:void(0);">游戏版号</a>--%>
+        <%--</span>--%>
+                <%--<div class="line1">--%>
+                    <%--<div class="line2 theme"></div>--%>
+                <%--</div>--%>
+                <%--<div>--%>
+                    <%--<img class="img-responsive" src="${ctx}/static/images/index/ISBN.jpg" alt="fundDeclaration">--%>
+                    <%--<p class="text1">--%>
+                        <%--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;游戏版号是游戏版权号的简称，是由国家新闻出版广电总局审核发布的对于游戏根据[著作权（游戏软件著作权，含网络游戏）法]和[计算机游戏软件保护条例]等法律法规的规定，游戏软件厂商或者个人作者开发的游戏软件在开发完成后就受到著作权（游戏软件著作权，含网络游戏）法的保护。游戏版号（也就是游戏出版备案）俗称电子出版物号，简称ISBN，普遍的有光盘发行号，书号。--%>
+                    <%--</p>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
     <div class="row">
 
         <!-- 产品展示 -->
@@ -322,11 +294,6 @@
 </div>
 <jsp:include page="/WEB-INF/include/foot.jsp"/>
 <script>
-    $(function () {
-        $("img").click(function () {
-            window.location.href = "tencent://Message/?Uin=2569333804&websiteName=yingzhikeji.cn&Menu=yes"
-        })
-    });
     $(function () {
         $(".navbar li").addClass("dropdown")
         $(".navbar li").removeClass("active")

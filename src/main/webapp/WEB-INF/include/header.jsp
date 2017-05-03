@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" %>
 <%@ include file="/WEB-INF/include/taglibs.jsp" %>
+
 <div class="container top">
     <div class="row">
         <div class="col-md-4">
@@ -9,14 +10,14 @@
 
         </div>
         <div class="col-md-2">
-            <a href="tencent://Message/?Uin=2569333804&websiteName=yingzhikeji.cn&Menu=yes" class="mail ant">
+            <a href="tencent://Message/?Uin=625575161&websiteName=yingzhikeji.cn&Menu=yes" class="mail ant">
                 <%--<span class="glyphicon glyphicon-envelope"></span>--%>
-                咨询QQ 2569333804
+                咨询QQ 625575161
             </a>
         </div>
         <div class="col-md-3">
             <a href="javascript:void(0);" class="phone ant">
-                <span class="glyphicon glyphicon-phone"></span>联系电话：183 0150 1273
+                <span class="glyphicon glyphicon-phone"></span>联系电话：186 1150 1617
             </a>
         </div>
     </div>

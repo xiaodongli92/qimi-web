@@ -1,5 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" %>
 <%@ include file="/WEB-INF/include/taglibs.jsp" %>
+<script>
+    $(function () {
+        $("img").click(function () {
+            window.location.href = "tencent://Message/?Uin=625575161&websiteName=yingzhikeji.cn&Menu=yes"
+        })
+    });
+</script>
+<div class="ui-sidebar">
+    <a class="ui-sidebar-block jimi" href="tencent://Message/?Uin=3298935274&websiteName=yingzhikeji.cn&Menu=yes"></a>
+    <a class="ui-sidebar-block jimi" href="tencent://Message/?Uin=1609639674&websiteName=yingzhikeji.cn&Menu=yes"></a>
+</div>
 <div class="container web-footer">
 
     <!-- 网站地图 -->
@@ -9,7 +20,7 @@
                 <dt>关于企秘</dt>
                 <dd><a href="${ctx}/about/info.do">公司概况</a></dd>
                 <dd><a href="${ctx}/about/law.do">法律申明</a></dd>
-                <dd><a href="javascript:void(0);">企业文化</a></dd>
+                <%--<dd><a href="javascript:void(0);">企业文化</a></dd>--%>
             </dl>
         </div>
         <div class="col-md-2">
@@ -17,7 +28,7 @@
                 <dt>联系我们</dt>
                 <dd><a href="${ctx}/about/contact.do">联系我们</a></dd>
                 <dd><a href="${ctx}/resources/join.do">加入企秘</a></dd>
-                <dd><a href="javascript:void(0);">商务合作</a></dd>
+                <%--<dd><a href="javascript:void(0);">商务合作</a></dd>--%>
             </dl>
         </div>
         <div class="col-md-2">
@@ -25,15 +36,15 @@
                 <dt>服务保障</dt>
                 <dd><a href="${ctx}/about/payType.do">付款方式</a></dd>
                 <dd><a href="${ctx}/about/service.do">服务保障</a></dd>
-                <dd><a href="javascript:void(0);">售后支持</a></dd>
+                <%--<dd><a href="javascript:void(0);">售后支持</a></dd>--%>
             </dl>
         </div>
         <div class="col-md-2">
             <dl>
                 <dt>帮助中心</dt>
-                <dd><a href="javascript:void(0);">用户疑难</a></dd>
+                <%--<dd><a href="javascript:void(0);">用户疑难</a></dd>--%>
                 <dd><a href="${ctx}/about/agency.do">代理商政策</a></dd>
-                <dd><a href="${ctx}/about/feedback.do">意见反馈</a></dd>
+                <%--<dd><a href="${ctx}/about/feedback.do">意见反馈</a></dd>--%>
             </dl>
         </div>
         <div class="col-md-4" id="wx">
@@ -45,6 +56,6 @@
 
     <!-- 底部 -->
     <div class="row" id="patent-footer">
-        <p> © 2017 北京影知科技有限公司 版权所有</p>
+        <p> © 2017 北京影知科技有限公司 版权所有 | 京ICP备17025104号</p>
     </div>
 </div>
